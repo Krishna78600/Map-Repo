@@ -1,0 +1,12 @@
+bisag@bisag-H510M-R:~/Desktop$ npx create-next-app@latest
+✔ What is your project named? … map-demo
+✔ Would you like to use TypeScript? … No / Yes yes
+✔ Would you like to use ESLint? … No / Yes yes
+✔ Would you like to use Tailwind CSS? … No / Yes yes
+✔ Would you like your code inside a `src/` directory? … No / Yes yes
+✔ Would you like to use App Router? (recommended) … No / Yes no
+✔ Would you like to use Turbopack for `next dev`? … No / Yes no
+✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes yes
+✔ What import alias would you like configured? … @/*
+Creating a new Next.js app in /home/bisag/Desktop/map-demo.
+
