@@ -1,0 +1,86 @@
+.map {
+    width: 100%;          // Make sure the map takes full width of its container
+    height: 100%;       // Set an appropriate height for the map
+    position: relative;   // Ensure the map is positioned relatively for absolute children
+  }
+  
+/*   .olPopup {
+    position: absolute;
+    bottom: 12px;        // Position the popup slightly above the bottom
+    left: -50px;         // Center the popup horizontally (adjust as necessary)
+    background-color: white; // Background color of the popup
+    border: 1px solid #ccc;   // Subtle border for the popup
+    border-radius: 4px;       // Slightly rounded corners
+    padding: 5px;             // Padding inside the popup
+    min-width: 150px;         // Minimum width to keep it compact
+    font-size: 14px;          // General font size
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Add subtle shadow for better visibility
+    display: none;            // Hide popup by default
+    z-index: 1000;           // Ensure popup appears above the map elements
+  }
+   */
+
+  .olPopup {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 280px;
+    color: black
+  }
+
+
+  .olPopup h3 {
+    font-size: 16px;          // Font size for the header
+    margin: 0 0 4px;         // Margin around the header to prevent space issues
+  }
+  
+  .olPopup p {
+    margin: 0;                // Remove default margin from paragraph
+    line-height: 1.2;         // Increase line height for readability
+  }
+  
+  .olPopup button {
+    cursor: pointer;          // Pointer cursor for button
+    margin-top: 5px;         // Margin above the button for spacing
+    font-size: 12px;         // Smaller font for the button
+    background-color: #ffffff; // Button background color
+    color: rgb(7, 7, 7);            // Button text color
+    border: none;            // Remove default border
+    border-radius: 4px;      // Rounded corners for button
+    padding: 4px 8px;        // Padding for button
+    transition: background-color 0.3s; // Transition effect for hover
+  }
+  
+  .olPopup button:hover {
+    background-color: #9ba4d6; // Darker color on hover
+  }
+
+
+.popupOn {
+  position: absolute;
+  top : 10px;
+  left : 10px;
+  background-color: rgpa(255,255,255,1);
+  padding : 10px ;
+  border-radius: 5px ;
+  z-index: 1000;
+  color : black;
+  width : 180px ;
+}
+
+.popupClose {
+  position  : absolute;
+  top : 5px ;
+  right : 5px ;
+  right : 5px ;
+  background-color: transparent;
+  border: none ;
+  font-size: 16px;
+  cursor: pointer;
+  color : #ff0000;
+}
